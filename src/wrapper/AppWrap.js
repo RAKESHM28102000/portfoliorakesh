@@ -10,7 +10,7 @@ const AppWrap = (Component, idName, classNames) => function HOC() {
 
         <div className="copyright">
           <p className="p-text">@2023 Rakesh</p>
-          <p className="p-text">work hark,have fun,make histroy</p>
+          <p className="p-text">work hard,have fun,make histroy</p>
         </div>
       </div>
       <NavigationDots active={idName} />
