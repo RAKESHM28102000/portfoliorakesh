@@ -9,6 +9,11 @@ import './Work.scss';
 
 const Work = () => {
   const data=[{title:'Youtube clone app',description:'Youtube clone in Reactjs with MUI-5 and RapidAPI',src:"../image/youtube.png",linkProject:"https://youtube-rakesh.onrender.com/",tags:['React JS'] },
+  {title:'Nextjs app',description:'Nextjs app with SSR',src:"../image/nextapp.png",linkProject:"https://github.com/RAKESHM28102000/nextapp",tags:['Web App'] },
+  {title:'Chuck Norris app',description:'Chuck Norris app  in Reactjs with  chuck norris API and  it gives joke based on title',src:"../image/chucknorris.png",linkProject:"https://github.com/RAKESHM28102000/chucknorrisapp",tags:['React JS'] },
+  {title:'Portfolio',description:'portfolio using reactjs,scss,framer motion ',src:"../image/mpr1.png",linkProject:"https://rakeshm.onrender.com/",tags:['React JS'] },
+  {title:'MPR POWER TECH',description:'This is our electrical engineering company website',src:"../image/mpr2.png",linkProject:"https://mprpowertech.onrender.com/",tags:['React JS'] },
+  {title:'Top brand',description:'Top brand website ',src:"../image/topbrand.png",linkProject:"https://topbrand.onrender.com/",tags:['React JS'] },
   {title:'Movies Search app',description:'Movie search app with React,App will be able to search for movies via the OMDB API. ',src:"../image/movies.png",linkProject:"https://moviefinder-c9zg.onrender.com/",tags:['React JS'] },
   {title:'My Portfolio',description:'portfolio app using Reactjs and threejs',src:"../image/portfolio.png",linkProject:"https://rakeshm-web-developer.onrender.com/",tags:['React JS'] },
   {title:'Social Media app',description:'Social media using React and Mui',src:"../image/socialmedia.png",linkProject:"https://reactapp2023.onrender.com/",tags:['React JS'] },
