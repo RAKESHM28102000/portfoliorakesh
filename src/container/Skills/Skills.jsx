@@ -11,10 +11,14 @@ const Skills = () => {
   const skillset=[{name:"HTML",bgColor:"black",icon:images.html},
   {name:"CSS",bgColor:"black",icon:images.css},
   {name:"Reactjs",bgColor:"black",icon:images.react},
+  {name:"Nextjs",bgColor:"--var(#fff)",icon:images.nextjs},
+  {name:"TailwindCss",bgColor:"black",icon:images.tailwind},
   {name:"Javascript",bgColor:"black",icon:images.javascript},
   {name:"Nodejs",bgColor:"black",icon:images.node},
   {name:"Mongodb",bgColor:"black",icon:"../image/free-mongodb-3629020-3030245.webp"},
   {name:"git",bgColor:"black",icon:images.git},
+  {name:"Saas",bgColor:"black",icon:images.sass},
+  {name:"MU5",bgColor:"black",icon:images.mu5},
   {name:"python",bgColor:"black",icon:images.python}];
 
   const experienceSet=[{year:"2022",works:[{name:"B.E.Agricultural and Irrigation Engineering",company:"CGPA:8.07/10",desc:"College of Engineering Guindy,Anna University,chennai."}]},
