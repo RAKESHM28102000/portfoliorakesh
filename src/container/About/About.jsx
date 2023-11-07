@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './About.scss';
 import { images } from '../../constants';
+import ResumeButton from '../../components/ResumeButton';
 // import { urlFor, client } from '../../client';
 const abouts=[{title:'Frontend Developer',description:'I am frontend developer with a passion for building beautiful and functional web applications',src:images.about04},
 {title:'Web Designer',description:'Creative Web Designer Passionate About Crafting Engaging User Interfaces. Fresh Graduate Bringing a Blend of Design Skills and Modern Aesthetic Sensibility.',src:images.about02},
@@ -27,7 +28,14 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">I Know that <span>Good Design</span> <br />means  <span>Good Business</span></h2>
-
+     
+      <motion.div
+            whileInView={{ opacity: 1 }}
+            whileHover={{ scale:1.5 }}
+            transition={{ duration: 0.5, type: 'tween' }}
+          >
+             <ResumeButton/>
+          </motion.div>
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div
