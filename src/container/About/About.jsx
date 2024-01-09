@@ -31,7 +31,7 @@ const About = () => {
      
       <motion.div
             whileInView={{ opacity: 1 }}
-            whileHover={{ scale:1.5 }}
+            whileHover={{ scale:1.2 }}
             transition={{ duration: 0.5, type: 'tween' }}
           >
              <ResumeButton/>

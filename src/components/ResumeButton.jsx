@@ -12,7 +12,7 @@ function ResumeButton() {
   };
 
   return (
-    <button onClick={handleDownload} style={{color:"blue",backgroundColor:"white",width:"200px",margin:"10px",borderRadius:"10%"}}>Download Resume</button>
+    <button onClick={handleDownload} style={{color:"white",backgroundColor:"black",width:"200px",margin:"10px",borderRadius:"20px",boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",padding:"5px"}}>Download Resume</button>
   );
 }
 

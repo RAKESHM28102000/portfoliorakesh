@@ -8,19 +8,18 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import './Work.scss';
 
 const Work = () => {
-  const data=[{title:'Youtube clone app',description:'Youtube clone in Reactjs with MUI-5 and RapidAPI',src:"../image/youtube.png",linkProject:"https://youtube-rakesh.onrender.com/",tags:['React JS'] },
-  {title:'Nextjs app',description:'Nextjs app with SSR',src:"../image/nextapp.png",linkProject:"https://github.com/RAKESHM28102000/nextapp",tags:['Web App'] },
-  {title:'Nike Website',description:'Nike website using tailwind css',src:"../image/nike.png",linkProject:"https://rake-shoe-app.netlify.app/",tags:['React JS'] },
+  const data=[{title:'Nike Website',description:'Nike website using tailwind css',src:"../image/nike.png",linkProject:"https://rake-shoe-app.netlify.app/",tags:['React JS'] },
+  {title:'Youtube clone app',description:'Youtube clone in Reactjs with MUI-5 and RapidAPI',src:"../image/youtube.png",linkProject:"https://youtube-rakesh.onrender.com/",tags:['React JS'] },
   {title:'Portfolio',description:'portfolio using reactjs,scss,framer motion ',src:"../image/mpr1.png",linkProject:"https://rakeshm.onrender.com/",tags:['React JS'] },
-  {title:'Chuck Norris app',description:'Chuck Norris app  in Reactjs with  chuck norris API and  it gives joke based on title',src:"../image/chucknorris.png",linkProject:"https://github.com/RAKESHM28102000/chucknorrisapp",tags:['React JS'] },
- 
+  {title:'Tanspycon 2023',description:'Tanpsycon event website using Ejs,Nodejs,Expressjs,MongoDB.',src:"../image/tanspy.png",linkProject:"https://tanpsycon2023.onrender.com",tags:['Web App']},
   {title:'MPR POWER TECH',description:'This is our electrical engineering company website',src:"../image/mpr2.png",linkProject:"https://mprpowertech.onrender.com/",tags:['React JS'] },
   {title:'Top brand',description:'Top brand website ',src:"../image/topbrand.png",linkProject:"https://topbrand.onrender.com/",tags:['React JS'] },
-  {title:'Movies Search app',description:'Movie search app with React,App will be able to search for movies via the OMDB API. ',src:"../image/movies.png",linkProject:"https://moviefinder-c9zg.onrender.com/",tags:['React JS'] },
   {title:'My Portfolio',description:'portfolio app using Reactjs and threejs',src:"../image/portfolio.png",linkProject:"https://rakeshm-web-developer.onrender.com/",tags:['React JS'] },
   {title:'Social Media app',description:'Social media using React and Mui',src:"../image/socialmedia.png",linkProject:"https://reactapp2023.onrender.com/",tags:['React JS'] },
-  {title:'Tanspycon 2023',description:'Tanpsycon event website using Ejs,Nodejs,Expressjs,MongoDB.',src:"../image/tanspy.png",linkProject:"https://tanpsycon2023.onrender.com",tags:['Web App']},
+  {title:'Nextjs app',description:'Nextjs app with SSR',src:"../image/nextapp.png",linkProject:"https://github.com/RAKESHM28102000/nextapp",tags:['Web App'] },
+  {title:'Chuck Norris app',description:'Chuck Norris app  in Reactjs with  chuck norris API and  it gives joke based on title',src:"../image/chucknorris.png",linkProject:"https://github.com/RAKESHM28102000/chucknorrisapp",tags:['React JS'] },
   {title:'Blog Website.',description:'Blog website using node.js and express.js and mongodb and ejs.',src:"../image/blog.png",linkProject:"https://myblog-r2zp.onrender.com/" ,tags:['Web App'] },
+  {title:'Movies Search app',description:'Movie search app with React,App will be able to search for movies via the OMDB API. ',src:"../image/movies.png",linkProject:"https://moviefinder-c9zg.onrender.com/",tags:['React JS'] },
   {title:'Google keep clone App',description:'Clone of google keep app using Reactjs.',src:"../image/googlekeep.png",linkProject:"https://reactgooglekeepapp.onrender.com/" ,tags:['Mobile App'] },
   {title:' To-do list App',description:'Dynamic Frontend, through EJS,which is an NPM package ,Backend built with Nodejs,Database Used: MongoDB Atlas',src:"../image/todolist.png",linkProject:"https://todolist-v2-qc8a.onrender.com/" ,tags:['UI/UX'] },]
  

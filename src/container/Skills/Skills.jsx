@@ -9,17 +9,18 @@ import './Skills.scss';
 
 const Skills = () => {
   const skillset=[{name:"HTML",bgColor:"black",icon:images.html},
-  {name:"CSS",bgColor:"black",icon:images.css},
+  {name:"CSS",bgColor:"grey",icon:images.css},
   {name:"Reactjs",bgColor:"black",icon:images.react},
-  {name:"Nextjs",bgColor:"--var(#fff)",icon:images.nextjs},
-  {name:"TailwindCss",bgColor:"black",icon:images.tailwind},
+  {name:"TailwindCss",bgColor:"grey",icon:images.tailwind},
   {name:"Javascript",bgColor:"black",icon:images.javascript},
+  {name:"java",bgColor:"grey",icon:images.java},
   {name:"Nodejs",bgColor:"black",icon:images.node},
-  {name:"Mongodb",bgColor:"black",icon:"../image/free-mongodb-3629020-3030245.webp"},
+  {name:"Mongodb",bgColor:"grey",icon:"../image/free-mongodb-3629020-3030245.webp"},
   {name:"git",bgColor:"black",icon:images.git},
-  {name:"Saas",bgColor:"black",icon:images.sass},
-  {name:"MU5",bgColor:"black",icon:images.mu5},
-  {name:"python",bgColor:"black",icon:images.python}];
+  {name:"Saas",bgColor:"grey",icon:images.sass},
+  {name:"Nextjs",bgColor:"--var(#fff)",icon:images.nextjs},
+  {name:"MU5",bgColor:"black",icon:images.mu5}
+  ];
 
   const experienceSet=[{year:"2022",works:[{name:"B.E.Agricultural and Irrigation Engineering",company:"CGPA:8.07/10",desc:"College of Engineering Guindy,Anna University,chennai."}]},
   {year:"2018",works:[{name:"HSC",company:"Percentage:87.75%",desc:"C.S.I st Hildas and st Hughs Matric hr sec School Chengalpattu."}]},
