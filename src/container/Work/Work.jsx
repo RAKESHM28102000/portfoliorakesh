@@ -8,11 +8,12 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import './Work.scss';
 
 const Work = () => {
-  const data=[{title:'Nike Website',description:'Nike website using tailwind css',src:"../image/nike.png",linkProject:"https://rake-shoe-app.netlify.app/",tags:['React JS'] },
+  const data=[{title:'MPR POWER TECH',description:'This is our electrical engineering company website',src:"../image/mpr2024.png",linkProject:"https://mprpowertechofficial.netlify.app/",tags:['React JS'] },
+  {title:'Nike Website',description:'Nike website using tailwind css',src:"../image/nike.png",linkProject:"https://rake-shoe-app.netlify.app/",tags:['React JS'] },
   {title:'Youtube clone app',description:'Youtube clone in Reactjs with MUI-5 and RapidAPI',src:"../image/youtube.png",linkProject:"https://youtube-rakesh.onrender.com/",tags:['React JS'] },
   {title:'Portfolio',description:'portfolio using reactjs,scss,framer motion ',src:"../image/mpr1.png",linkProject:"https://rakeshm.onrender.com/",tags:['React JS'] },
   {title:'Tanspycon 2023',description:'Tanpsycon event website using Ejs,Nodejs,Expressjs,MongoDB.',src:"../image/tanspy.png",linkProject:"https://tanpsycon2023.onrender.com",tags:['Web App']},
-  {title:'MPR POWER TECH',description:'This is our electrical engineering company website',src:"../image/mpr2.png",linkProject:"https://mprpowertech.onrender.com/",tags:['React JS'] },
+  {title:'Mpr-v1',description:'This is our electrical engineering company website',src:"../image/mpr2.png",linkProject:"https://mprpowertech.onrender.com/",tags:['React JS'] },
   {title:'Top brand',description:'Top brand website ',src:"../image/topbrand.png",linkProject:"https://topbrand.onrender.com/",tags:['React JS'] },
   {title:'My Portfolio',description:'portfolio app using Reactjs and threejs',src:"../image/portfolio.png",linkProject:"https://rakeshm-web-developer.onrender.com/",tags:['React JS'] },
   {title:'Social Media app',description:'Social media using React and Mui',src:"../image/socialmedia.png",linkProject:"https://reactapp2023.onrender.com/",tags:['React JS'] },
