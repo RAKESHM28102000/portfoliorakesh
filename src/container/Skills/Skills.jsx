@@ -8,20 +8,20 @@ import './Skills.scss';
 
 
 const Skills = () => {
-  const skillset=[{name:"HTML",bgColor:"black",icon:images.html},
-  {name:"CSS",bgColor:"grey",icon:images.css},
-  {name:"Reactjs",bgColor:"black",icon:images.react},
-  {name:"TailwindCss",bgColor:"grey",icon:images.tailwind},
-  {name:"Javascript",bgColor:"black",icon:images.javascript},
-  {name:"java",bgColor:"grey",icon:images.java},
-  {name:"Nodejs",bgColor:"black",icon:images.node},
-  {name:"Mongodb",bgColor:"grey",icon:"../image/free-mongodb-3629020-3030245.webp"},
-  {name:"git",bgColor:"black",icon:images.git},
-  {name:"Postgres",bgColor:"grey",icon:images.postgres},
+  const skillset=[{name:"HTML",bgColor:"white",icon:images.html},
+  {name:"CSS",bgColor:"white",icon:images.css},
+  {name:"Reactjs",bgColor:"white",icon:images.react},
+  {name:"TailwindCss",bgColor:"white",icon:images.tailwind},
+  {name:"Javascript",bgColor:"white",icon:images.javascript},
+  {name:"java",bgColor:"white",icon:images.java},
+  {name:"Nodejs",bgColor:"white",icon:images.node},
+  {name:"Mongodb",bgColor:"white",icon:"../image/free-mongodb-3629020-3030245.webp"},
+  {name:"git",bgColor:"white",icon:images.git},
+  {name:"Postgres",bgColor:"white",icon:images.postgres},
   {name:"Nextjs",bgColor:"--var(#fff)",icon:images.nextjs},
-  {name:"MU5",bgColor:"black",icon:images.mu5},
+  {name:"MU5",bgColor:"white",icon:images.mu5},
   {name:"photoshop",bgColor:"--var(#fff)",icon:images.ps},
-  {name:"illustrator",bgColor:"black",icon:images.ai}
+  {name:"illustrator",bgColor:"white",icon:images.ai}
   ];
 
   const experienceSet=[{year:"2022",works:[{name:"B.E.Agricultural and Irrigation Engineering",company:"CGPA:8.07/10",desc:"College of Engineering Guindy,Anna University,chennai."}]},
@@ -62,7 +62,7 @@ const Skills = () => {
                 className="app__flex"
                 style={{ backgroundColor: skill.bgColor }}
               >
-                <img src={skill.icon} alt={skill.name} />
+                <img src={skill.icon} alt={skill.name}/>
               </div>
               <p className="p-text">{skill.name}</p>
             </motion.div>
