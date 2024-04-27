@@ -37,12 +37,15 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import java from '../assets/java-logo-1.png';
-import ps from '../assets/Adobe_Illustrator_CC_icon.svg.png';
-import ai from '../assets/Adobe_Photoshop_CC_icon.svg.png';
+import ai from '../assets/Adobe_Illustrator_CC_icon.svg.png';
+import ps from '../assets/Adobe_Photoshop_CC_icon.svg.png';
 import postgres from '../assets/Postgresql.png';
+import indesign from '../assets/Adobe_InDesign_CC_icon.svg.png';
+
 
 
 export default {
+  indesign,
   postgres,
   ps,
   ai,

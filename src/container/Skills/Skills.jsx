@@ -20,8 +20,9 @@ const Skills = () => {
   {name:"Postgres",bgColor:"white",icon:images.postgres},
   {name:"Nextjs",bgColor:"--var(#fff)",icon:images.nextjs},
   {name:"MU5",bgColor:"white",icon:images.mu5},
-  {name:"photoshop",bgColor:"--var(#fff)",icon:images.ps},
-  {name:"illustrator",bgColor:"white",icon:images.ai}
+  {name:"Photoshop",bgColor:"--var(#fff)",icon:images.ps},
+  {name:"Illustrator",bgColor:"white",icon:images.ai},
+  {name:"Indesign",bgColor:"--var(#fff)",icon:images.indesign},
   ];
 
   const experienceSet=[{year:"2022",works:[{name:"B.E.Agricultural and Irrigation Engineering",company:"CGPA:8.07/10",desc:"College of Engineering Guindy,Anna University,chennai."}]},
