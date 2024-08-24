@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
@@ -35,6 +36,7 @@ const About = () => {
             transition={{ duration: 0.5, type: 'tween' }}
           >
              <ResumeButton/>
+             <div style={{display:"flex",justifyContent:"center", alignItems:"center",color:"white",backgroundColor:"black",width:"200px",margin:"10px",borderRadius:"20px",boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",padding:"5px"}}><a style={{textDecoration:"none",color:"white"}} href='https://www.behance.net/mrakeshmrakesh' target='blank'>Behance Profile</a></div>
           </motion.div>
       <div className="app__profiles">
         {abouts.map((about, index) => (
