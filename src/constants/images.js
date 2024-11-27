@@ -20,16 +20,16 @@ import vue from '../assets/vue.png';
 import nextjs from '../assets/nextjs-icon.png'
 import tailwind from '../assets/tailwind-css-icon.png'
 
-import about01 from '../assets/about01.png';
-import about02 from '../assets/about02.png';
-import about03 from '../assets/about03.png';
-import about04 from '../assets/about04.png';
+import about01 from '../assets/front-end-developer.jpg';
+import about02 from '../assets/grahic designer.jpg';
+import about03 from '../assets/react developer.png';
+import about04 from '../assets/backend developer.jpg';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
-import logo from '../assets/logo.png';
+import logo from '../assets/Rakeshlogo3.png';
 
-import adidas from '../assets/adidas.png';
+import adidas from '../assets/NEWLOGO-MPRnew2-01.jpg';
 import amazon from '../assets/amazon.png';
 import asus from '../assets/asus.png';
 import bolt from '../assets/bolt.png';

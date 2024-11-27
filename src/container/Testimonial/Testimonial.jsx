@@ -9,8 +9,8 @@ import './Testimonial.scss';
 
 const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [testimonials, setTestimonials] = useState([{name:"Rakesh",company:"google",imgUrl:images.react,feedback:"Rakesh is awesome developer"},
-  {name:"Robin",company:"netflix",imgUrl:images.javascript,feedback:"Rakesh is awesome developer"}]);
+  const [testimonials, setTestimonials] = useState([{name:"Prasanna kumar",company:"MPR POWER TECH",imgUrl:images.adidas,feedback:"Cool 😎 WEB DEVELOPER"},
+  {name:"Mano K",company:"MPR",imgUrl:images.adidas,feedback:"Awesome GRAPHIC DESIGNER"}]);
 
   const [brands, setBrands] = useState([{name:"Bolt",imgUrl:images.bolt},
   {name:"spotify",imgUrl:images.spotify},
