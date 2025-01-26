@@ -2,12 +2,12 @@
 import React from 'react';
 
 function ResumeButton() {
-  const resumePath = '/resume/Rakeshm.pdf'; // Replace with the actual path to your resume
+  const resumePath = '/resume/Rakesh-M-resume.pdf'; // Replace with the actual path to your resume
 
   const handleDownload = () => {
     const anchor = document.createElement('a');
     anchor.href = resumePath;
-    anchor.download = 'Resume.pdf'; // The name for the downloaded file
+    anchor.download = 'Rakesh_Resume.pdf'; // The name for the downloaded file
     anchor.click();
   };
 
