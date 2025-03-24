@@ -25,7 +25,7 @@ const Skills = () => {
   {name:"Indesign",bgColor:"--var(#fff)",icon:images.indesign},
   ];
 
-  const experienceSet=[{year:"2024",works:[{name:"MBA",company:"CGPA:NA",desc:"University of Madras,Chennai."}]},{year:"2022",works:[{name:"B.E.Agricultural and Irrigation Engineering",company:"CGPA:8.07/10",desc:"College of Engineering Guindy,Anna University,chennai."}]},
+  const experienceSet=[{year:"2024",works:[{name:"MBA",company:"CGPA:75.25%",desc:"DOMS,University of Madras."}]},{year:"2022",works:[{name:"B.E.Agricultural and Irrigation Engineering",company:"CGPA:8.07/10",desc:"College of Engineering Guindy,Anna University,chennai."}]},
   {year:"2018",works:[{name:"HSC",company:"Percentage:87.75%",desc:"C.S.I st Hildas and st Hughs Matric hr sec School Chengalpattu."}]},
   {year:"2016",works:[{name:"SSLC",company:"Percentage:93.4%",desc:"C.S.I st Hildas and st Hughs Matric hr sec School Chengalpattu."}]},
  ];
